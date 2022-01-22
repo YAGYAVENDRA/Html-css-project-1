@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+
+
+    <title>yagyavendra tiwari</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div>
+            <a href="#home">
+                <img class="icon" src="image/favicon.ico" alt="">
+            </a>
+            
+        </div>
+        <div>
+            <ul class="nav">
+                <li><a class="a" href="#home">Home</a></li>
+                <li><a class="a" href="#about-us">About Us</a></li>
+                <li><a class="a" href="#skills">Skills</a></li>
+                <li><a class="a" href="#contact-us">Contact us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <div class="top-container" id="home">
+        <img class="cloud-top" src="image/cloud.png" alt="Cloud image">
+        <h1 class="heading">I'm Yagyavendra</h1>
+        <p class="label">A <span>pro</span>grammer</p>
+        <img class="cloud-bottom" src="image/cloud.png" alt="Cloud image">
+        <img class="mountain" src="image/moutain-1.png" alt="mountains">
+    </div>
+       <hr id="about-us">
+    <div class="mid-container">
+        <img class="profil" src="https://pbs.twimg.com/profile_images/1378192738076696579/_aBe8ADu_400x400.jpg" alt="profil photo of yagyavendra">
+        <h2>Hello</h2>
+        <p class="intro">I am student of B.tech Computer science in Uka tarsadia university
+            and I 💗 Tea.</p>
+        <hr id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="design">
+            <h3>Design & Development</h3>
+            <img class="gif" src="image/animation.gif" alt="Coding Skill gif">
+            <p class="design-text"> I start learning c language in my first semester then SQL ,data structure, java and now am in 4<sup>rd</sup> semester and learning python </p>
+        </div>
+      <hr>
+
+        <div class="challenge">
+            <h3>Mango Challenge</h3>
+            <img class="mango" src="image/mango.jpg" alt="">
+            <p class="challenge-text">I love Mango, if you love Mango as mush as I love then take challenge of mango while doing code </p>
+        </div>
+        <hr>
+
+
+        <h2 id="contact-us">Contact Us</h2>
+        <h3> if you really want to take challenge then contact us</h3>
+        <a class="btn" href="mailto:yagyavendratiwari@gmail.com">Contact me</a>
+    </div>
+
+    <div class="bottom-container">
+        <div class="link">
+            <a class="sangam sangam-1" href="https://www.facebook.com/yagvender.tiwari"><i class="fab fa-facebook fa-2x"></i></a>
+            <a class="sangam sangam-2" href="https://twitter.com/yagyavendra1"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="sangam sangam-3" href="https://www.instagram.com/yagyavendra_5_/"><i class="fab fa-instagram fa-2x"></i></a>
+            <p class="p">All © reserve by yagyavendra</p>
+        </div>
+    
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Kaushan+Script&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #2C272E;
+   
+}
+h1{
+    color: #4C0027; 
+}
+h2{
+    color: #1ecfc9; 
+    font-size: 32px;
+}
+h3{
+    color: #1ecfc9; 
+    padding: 10px;
+    margin: 10px;
+}
+hr{
+    border: dotted 5px #D3DEDC;
+    margin: 70px auto;
+    border-bottom: none;
+    width: 60px;
+    
+}
+li{
+    list-style: none;
+    display: inline;
+    
+}
+.a{
+    text-decoration: none;
+    padding: 40px;
+    color: #4C0027;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: color 0.5s,font-size 0.5s;
+    
+    
+}
+.a:hover{
+    color: #EE204D;
+    font-size: 1.5rem;
+}
+
+.nav{
+    text-align: right;
+    margin: 30px;
+    margin-right: 200px;
+    
+    
+}
+.icon{
+    float: left;
+    padding: 10px 0px 5px 120px;
+    margin-top: 10px;
+}
+
+.nav-bar{
+ border: 1px solid #CDDEFF;
+ background-color: #CDDEFF;
+ height: 80px;
+ position: sticky;
+ top: 0;
+}
+
+.top-container{
+    position: relative;
+    background-color: #CDDEFF;
+}
+.heading{
+    font-family: 'Kaushan Script', cursive;
+    color: #4C0027;
+    margin: 60px 20px 0 20px;
+}
+.cloud-top{
+    position: relative;
+    top: 10px;
+    left: 300px;
+    margin: 0 auto;
+    width: 20%;
+}
+span{
+    text-decoration: underline;
+}
+.cloud-bottom{
+   width: 20%;
+   position: absolute;
+   left: 200px;
+   right: 300px;
+   top: 300px;
+   margin: 10px 5px;
+}
+.mountain{
+    width: 40%;
+    margin: 40px auto;
+    padding: 10px;
+}
+.mid-container{
+    margin: 40px;
+}
+
+.profil{
+    border-radius: 300px;
+    width: 10rem;
+    padding: 5px;
+    margin: 5px;
+}
+.intro{
+    width: 500px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.gif{
+    width: 180px;
+    border-radius: 100%;
+    float: left;
+}
+.mango{
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px;
+    float: right;
+}
+.design-text{
+    padding: 5px 0px 5px 233px;
+    text-align: left;
+    
+    
+    
+}
+.challenge-text{
+    margin: 5%;
+    text-align: left;
+}
+
+.design{
+    margin: 90px auto;
+    width: 60%;
+    
+}
+.challenge{
+    margin: 60px auto;
+    width: 60%;
+
+}
+.btn {
+    background: #1ecfc9;
+    background-image: -webkit-linear-gradient(top, #1ecfc9, #1ecfc9);
+    background-image: -moz-linear-gradient(top, #1ecfc9, #1ecfc9);
+    background-image: -ms-linear-gradient(top, #1ecfc9, #1ecfc9);
+    background-image: -o-linear-gradient(top, #1ecfc9, #1ecfc9);
+    background-image: linear-gradient(to bottom, #1ecfc9, #1ecfc9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+  }
+  
+  .btn:hover {
+    background: #EE204D;
+    background-image: -webkit-linear-gradient(top, #EE204D, #EE204D);
+    background-image: -moz-linear-gradient(top, #EE204D, #EE204D);
+    background-image: -ms-linear-gradient(top, #EE204D, #EE204D);
+    background-image: -o-linear-gradient(top, #EE204D, #EE204D);
+    background-image: linear-gradient(to bottom, #EE204D, #EE204D);
+    text-decoration: none;
+  }
+
+  .bottom-container{
+      background-color: #CDDEFF;
+      margin-top: 90px;
+
+  }
+.link{
+    padding: 30px;
+}
+.sangam{
+    margin-top: 10px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1ecfc9;
+    transition: color 0.5s;
+}
+.sangam:hover{
+    color:#EE204D ; 
+}
+.p{
+    font-size: 13px;
+    padding: 10px;
+}
